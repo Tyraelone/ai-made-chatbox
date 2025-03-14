@@ -1,0 +1,44 @@
+/* 消息输入容器 */
+.message-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* 提示词模板按钮容器 */
+.prompt-library-button-container {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+/* 提示词模板按钮样式 - 放在输入框上方 */
+.prompt-library-button-top {
+  display: flex;
+  align-items: center;
+}
+
+/* 消息输入区域样式 */
+.message-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.message-input-textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 8px;
+  padding: 10px !important;
+  padding-right: 60px !important; /* 为右侧发送按钮留出空间 */
+  min-height: 100px; /* 增加输入框高度 */
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* 发送按钮样式 */
+.send-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 10;
+}
